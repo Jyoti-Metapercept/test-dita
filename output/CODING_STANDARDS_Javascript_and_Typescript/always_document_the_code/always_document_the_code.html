@@ -1,0 +1,24 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2023"><meta name="DC.rights.owner" content="(C) Copyright 2023"><meta name="DC.Type" content="topic"><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="d3aAkf"><link rel="stylesheet" type="text/css" href="../../commonltr.css"><title>Always document the code</title></head><body id="d3aAkf"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Always document the code</h1>
+   <div class="body">
+      <p class="p Para">Always document the code as much as possible. It will improve readability and help a new developer involved in a project to understand its logic.</p>
+      <p class="p Para">It is a good practice to document each variable and method. Define methods using multi-line comments on what task the method performs. All parameters should be explained.</p>
+      <table class="table expanse-column table-rulesborder"><colgroup><col style="width:90.16%"></colgroup><tbody class="tbody">
+               <tr class="row">
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+                     <p class="p">/**</p>
+                     <p class="p">   * Returns the managed object content children</p>
+                     <p class="p">   * @param id - managed object's canonical id</p>
+                     <p class="p">   * @param uri - managed object's canonical uri</p>
+                     <p class="p">   * @returns Observable the emits the contents of the tree node</p>
+                     <p class="p">   */</p>
+                     <p class="p">  browseTreeNode(id: string, uri: string): Observable&lt;ServerResponse&gt; {</p>
+                     <p class="p">    return this.appService.browseTreeNode(id, uri);</p>
+                     <p class="p">  } </p>
+                  </td>
+               </tr>
+            </tbody></table>
+   </div>
+</article></main></body></html>
