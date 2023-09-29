@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map
+ PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>error handling</title>
+   <topicref href="error_handling.dita" navtitle="Error handling"/>
+   <topicref href="handling_errors_with_httpclient/handling_errors_with_httpclient.dita" navtitle="Handling Errors with HttpClient"/>
+   <topicref href="handling_errors_with_httpinterceptor/handling_errors_with_httpinterceptor.dita" navtitle="Handling Errors with HttpInterceptor">
+      <topicref href="handling_errors_with_httpinterceptor/heaging_3.dita" navtitle="Heaging 3"/>
+      <topicref href="handling_errors_with_httpinterceptor/part1_heaging_3.dita" navtitle="Part1_Heaging 3"/>
+      <topicref href="handling_errors_with_httpinterceptor/part2_heaging_3.dita" navtitle="Part2_Heaging 3"/>
+   </topicref>
+</map>

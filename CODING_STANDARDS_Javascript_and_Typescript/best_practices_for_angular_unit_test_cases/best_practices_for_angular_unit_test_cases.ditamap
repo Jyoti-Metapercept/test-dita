@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map
+ PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>best practices for angular unit test cases</title>
+   <topicref href="best_practices_for_angular_unit_test_cases.dita" navtitle="Best practices for Angular unit test cases"/>
+</map>
