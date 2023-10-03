@@ -50,7 +50,7 @@
     justify-content: space-between;
     height: 80px;
     width: 100vw;
-    background-color: #563D7C;
+    background-color: #f00000;
     color: #fff;
   }
   #navbar #logo-bar img {
@@ -68,7 +68,7 @@
     z-index: 3;
     top: 80px;
     height: 100vh;
-    background-color: #EAF1FB;
+    background-color: #5400a8;
     overflow: scroll;
     padding-top: 12px;
     max-width: 450px;
@@ -100,7 +100,7 @@
   nav[role="toc"] li a,
   nav.toc li a {
     text-decoration: none;
-    color: black;
+    color: #ffffff;
   }
   nav[role="toc"] li>a:first-child ,
   nav.toc li>a:first-child {
@@ -115,7 +115,7 @@
   }
   nav[role="toc"] li a:hover,
   nav.toc li a:hover {
-    color:blue;
+    color:#d60000;
   }
   ::-webkit-scrollbar {
     width: 0;
@@ -126,7 +126,7 @@
   }
   .container nav[role="toc"] li.active > a,
   .container nav[class="toc"] li.active > a {
-    color:blue;
+    color:#d60000;
     font-weight: 600;
     border-radius: 6px;
     display: -webkit-inline-box;
@@ -147,7 +147,7 @@
     transition: 0.3s;
     padding: 0 16px 0 6px;
     cursor: pointer;
-    color: black;
+    color: #ffffff;
     align-items: center;
     position: relative;
     -webkit-transition: 0.3s;
@@ -163,8 +163,8 @@
     content: "";
     width: 10px;
     height: 10px;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border-top: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
     border-bottom: 5px solid transparent;
     border-left: 5px solid transparent;
     border-radius: 2px;
@@ -308,6 +308,7 @@
   .next-prev-container a {
     position: relative;
     display: inline-block;
+    color:black;
     padding: 6px 16px;
     border-radius: 8px;
     text-decoration: none;
@@ -458,7 +459,7 @@
     display: flex;
     justify-content:center;
     width: 100%;
-    background-color: var(--blk);
+    background-color: #bbff00;
   }
   div.right {
     margin: 0;
