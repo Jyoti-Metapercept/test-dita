@@ -1,165 +1,55 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html xmlns:dita="http://dita-ot.sourceforge.net">
+<html lang="en">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Generated HTML</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <meta name="copyright" content="(C) Copyright 2023">
+      <meta name="DC.rights.owner" content="(C) Copyright 2023">
+      <meta name="DC.Type" content="map">
+      <meta name="DC.Format" content="HTML5">
+      <link rel="stylesheet" type="text/css" href="commonltr.css">
+      <title>CODING STANDARDS Javascript and Typescript</title>
    </head>
    <body>
-      <div id="navbar">
-         <div id="logo-bar"><span onclick="openMenu()" id="menuToggle">☰</span></div>
-         <div id="searchBar"><input id="text-to-search" type="text" placeholder="Type something..."><button id="search-button">🔍</button></div>
-      </div>
-      <div class="container">
-         <div class="row">
-            <html lang="en">
-               <head>
-                  <meta charset="UTF-8">
-                  <meta name="copyright" content="(C) Copyright 2023">
-                  <meta name="DC.rights.owner" content="(C) Copyright 2023">
-                  <meta name="DC.Type" content="map">
-                  <meta name="DC.Format" content="HTML5">
-                  <link rel="stylesheet" type="text/css" href="commonltr.css">
-                  <title>CODING STANDARDS Javascript and Typescript</title>
-               </head>
-               <body>
-                  <h1 class="title topictitle1">CODING STANDARDS Javascript and Typescript</h1>
-                  <nav>
-                     <ul class="map">
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/introduction/introduction.html">Introduction</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_angular_cli/use_angular_cli.html">Use Angular CLI</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/maintain_proper_folder_structure/maintain_proper_folder_structure.html">Maintain proper folder structure</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/follow_consistent_angular_coding_styles/follow_consistent_angular_coding_styles.html">Follow consistent Angular coding styles</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_es6_features/use_es6_features.html">Use ES6 features</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_trackby_along_with_ngfor/use_trackby_along_with_ngfor.html">Use trackBy along with ngFor</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/break_down_into_small_reusable_components/break_down_into_small_reusable_components.html">Break down into small reusable components</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_lazy_loading/use_lazy_loading.html">Use Lazy Loading</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_index_ts/use_index_ts.html">Use Index.ts</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_logic_in_templates/avoid_logic_in_templates.html">Avoid logic in templates</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/_cache_api_calls/_cache_api_calls.html"> Cache API calls</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_async_pipe_in_templates/use_async_pipe_in_templates.html">Use async pipe in templates</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/declare_safe_strings/declare_safe_strings.html">Declare safe strings</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_any_type_when_declaring_constants_and_variables/avoid_any_type_when_declaring_constants_and_variables.html">Avoid any type when declaring constants and variables</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/state_management/state_management.html">State management</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_cdk_virtual_scroll/use_cdk_virtual_scroll.html">Use CDK Virtual Scroll</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_environment_variables/use_environment_variables.html">Use environment variables</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_lint_rules_for_typescript_and_scss/use_lint_rules_for_typescript_and_scss.html">Use lint rules for Typescript and SCSS</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/always_document_the_code/always_document_the_code.html">Always document the code</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/write_readable_code/write_readable_code.html">Write readable code</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/file_names/file_names.html">File names</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/variable_and_function_names/variable_and_function_names.html">Variable and function names</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/write_small_pure_functions/write_small_pure_functions.html">Write small pure functions</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/remove_unused_code/remove_unused_code.html">Remove unused code</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_code_comments/avoid_code_comments.html">Avoid code comments</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/best_practices_for_angular_unit_test_cases/best_practices_for_angular_unit_test_cases.html">Best practices for Angular unit test cases</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/error_handling.html">Error handling</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpclient/handling_errors_with_httpclient.html">Handling Errors with HttpClient</a></li>
-                        <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/handling_errors_with_httpinterceptor.html">Handling Errors with HttpInterceptor</a><ul>
-                              <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/heaging_3.html">Heaging 3</a></li>
-                              <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/part1_heaging_3.html">Part1_Heaging 3</a></li>
-                              <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/part2_heaging_3.html">Part2_Heaging 3</a></li>
-                           </ul>
-                        </li>
-                     </ul>
-                  </nav>
-               </body>
-            </html>
-         </div>
-      </div>
-      <div class="to-top" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></div>
-      <div class="footer">
-         <div class="bottom">
-            <div class="ftrlinks"><a href="hemal" target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                     <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
-                  </svg></a></div>
-         </div><span class="ftrtxt">test</span></div>
+      <h1 class="title topictitle1">CODING STANDARDS Javascript and Typescript</h1>
+      <nav>
+         <ul class="map">
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/introduction/introduction.html">Introduction</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_angular_cli/use_angular_cli.html">Use Angular CLI</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/maintain_proper_folder_structure/maintain_proper_folder_structure.html">Maintain proper folder structure</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/follow_consistent_angular_coding_styles/follow_consistent_angular_coding_styles.html">Follow consistent Angular coding styles</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_es6_features/use_es6_features.html">Use ES6 features</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_trackby_along_with_ngfor/use_trackby_along_with_ngfor.html">Use trackBy along with ngFor</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/break_down_into_small_reusable_components/break_down_into_small_reusable_components.html">Break down into small reusable components</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_lazy_loading/use_lazy_loading.html">Use Lazy Loading</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_index_ts/use_index_ts.html">Use Index.ts</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_logic_in_templates/avoid_logic_in_templates.html">Avoid logic in templates</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/_cache_api_calls/_cache_api_calls.html"> Cache API calls</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_async_pipe_in_templates/use_async_pipe_in_templates.html">Use async pipe in templates</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/declare_safe_strings/declare_safe_strings.html">Declare safe strings</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_any_type_when_declaring_constants_and_variables/avoid_any_type_when_declaring_constants_and_variables.html">Avoid any type when declaring constants and variables</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/state_management/state_management.html">State management</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_cdk_virtual_scroll/use_cdk_virtual_scroll.html">Use CDK Virtual Scroll</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_environment_variables/use_environment_variables.html">Use environment variables</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/use_lint_rules_for_typescript_and_scss/use_lint_rules_for_typescript_and_scss.html">Use lint rules for Typescript and SCSS</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/always_document_the_code/always_document_the_code.html">Always document the code</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/write_readable_code/write_readable_code.html">Write readable code</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/file_names/file_names.html">File names</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/variable_and_function_names/variable_and_function_names.html">Variable and function names</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/write_small_pure_functions/write_small_pure_functions.html">Write small pure functions</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/remove_unused_code/remove_unused_code.html">Remove unused code</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/avoid_code_comments/avoid_code_comments.html">Avoid code comments</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/best_practices_for_angular_unit_test_cases/best_practices_for_angular_unit_test_cases.html">Best practices for Angular unit test cases</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/error_handling.html">Error handling</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpclient/handling_errors_with_httpclient.html">Handling Errors with HttpClient</a></li>
+            <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/handling_errors_with_httpinterceptor.html">Handling Errors with HttpInterceptor</a><ul>
+                  <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/heaging_3.html">Heaging 3</a></li>
+                  <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/part1_heaging_3.html">Part1_Heaging 3</a></li>
+                  <li class="topicref"><a href="CODING_STANDARDS_Javascript_and_Typescript/error_handling/handling_errors_with_httpinterceptor/part2_heaging_3.html">Part2_Heaging 3</a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
    </body>
-</html><script xmlns:dita="http://dita-ot.sourceforge.net" src="https://kit.fontawesome.com/a1435abe6f.js" crossorigin="anonymous"></script><script xmlns:dita="http://dita-ot.sourceforge.net">
-      
-      let DxpLogoLocation = window.location.href;
-            DxpLogoLocation = DxpLogoLocation.split("/");
-            DxpLogoLocation.pop();
-            DxpLogoLocation = DxpLogoLocation.join("/");
-            localStorage.setItem(
-              "DxpLogoLocation",
-              JSON.stringify(DxpLogoLocation)
-            );
-            // add toc class in nav tag
-            document.querySelector('nav').classList.add('toc')
-          const expandmenu = document.querySelectorAll(
-            '.container nav[role="toc"] li, .container nav.toc li'
-          );
-          const multiChapetersTopic = []
-          expandmenu.forEach((ele) => {
-            if (checkForChildUnorderedList(ele.childNodes)) multiChapetersTopic.push(ele);
-          });
-          function checkForChildUnorderedList(nodes) {
-            for (const childNode of nodes) {
-              if (childNode.nodeName === "UL") return true;
-            }
-          }
-          addCollapsibleMenu(multiChapetersTopic);
-          function handleCollapse(){
-            event.target.classList.toggle("rotate-dropdown-arrow")
-            event.target.nextElementSibling.nextElementSibling?event.target.nextElementSibling.nextElementSibling.classList.toggle("show-submenu"):event.target.nextElementSibling.classList.toggle("show-submenu")
-          }
-          function openMenu(){
-            const menu = document.querySelector('.container>.row')
-            menu.classList.toggle("hide-menu")
-          }
-          function addCollapsibleMenu(allTopics){
-            allTopics.forEach((topic) => {
-              topic.childNodes[1].classList.add("hide-submenu");
-              const collapseButton = document.createElement("div");
-              collapseButton.classList.add("dropdown-arrow")
-              collapseButton.addEventListener("click", handleCollapse);
-              topic.insertBefore(collapseButton, topic.firstChild);
-            });
-          }
-          window.addEventListener("scroll",()=>{
-            const toTop = document.querySelector(".to-top")
-            if(window.pageYOffset > 100){
-              toTop.classList.add("to-top-visible")
-            }else{
-              toTop.classList.remove("to-top-visible")
-            }
-          })
-          function scrollToTop(){
-            window.scrollTo(0,0)
-          }
-          function addLogo(){
-            const logoDiv = document.querySelector("#logo-bar")
-            const logoImg = document.createElement("img")
-            logoImg.src = JSON.parse(localStorage.getItem("DxpLogoLocation"))+"/Logo/ditaxpresso.png"
-            logoDiv.append(logoImg)
-          }
-          addLogo()
-          //function to handle broken image link in logo
-          function handleBrokenLogo() {
-            const logoImg = document.querySelector('#logo-bar img');
-            logoImg.addEventListener('error',()=>{
-              logoImg.style.display = 'none'
-            })
-          }
-          handleBrokenLogo()
-
-          function handleIntroTitle(){
-            const grid = document.querySelector('.container .row');
-            const nav = document.querySelector('nav.toc');
-            const h1 = document.querySelector('.container .row>h1');
-            const mainContainer =  document.createElement('main')
-            mainContainer.classList.add('main')
-            grid.append(mainContainer)
-            if(!h1) return
-            // Insert the h1 before the nav element to place it on the right
-            grid.insertBefore(nav,h1);
-            grid.removeChild(h1);
-            mainContainer.append(h1)
-          }
-          handleIntroTitle()
-        
-    </script>
+</html>
